@@ -115,3 +115,32 @@ body {
 .servicios {
     display: none;
 }
+
+
+/*comienza mediaquery de contacto.html*/
+
+@media screen and (max-width: 850px) {
+    .mapa_contacto {
+        display: none;
+    }
+    .servicios {
+        text-align: center;
+        display: unset;
+    }
+    .info-empresa {
+        & h3 {
+            text-align: center;
+            margin-bottom: 0.5rem;
+        }
+        & h4 {
+            display: none;
+        }
+    }
+    .contacto {
+        margin-bottom: 5rem;
+        text-align: center;
+        & h3 {
+            display: unset;
+        }
+    }
+}
