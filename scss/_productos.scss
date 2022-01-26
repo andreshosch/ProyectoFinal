@@ -1,0 +1,26 @@
+                                    /*comienzo productos para la venta */
+                                    
+                                    .productos {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                        justify-content: space-around;
+                                        padding: 1%;
+                                        background-color: $bg_cian;
+                                        & div {
+                                            margin-top: 2%;
+                                            border-color: lightblue;
+                                            & img:hover {
+                                                opacity: 80%;
+                                            }
+                                        }
+                                        & h4 {
+                                            color: red;
+                                            font-weight: bold;
+                                            text-align: left;
+                                        }
+                                        .color_boton_producto {
+                                            background-color: $bg_cielo;
+                                            border-color: blue;
+                                            color: black;
+                                        }
+                                    }
