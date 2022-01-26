@@ -2,6 +2,7 @@
         
         .contenedor_conocenos {
             height: 2300px;
+            margin: auto;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(7, 1fr);
