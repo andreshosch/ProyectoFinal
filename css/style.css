@@ -9,10 +9,10 @@
 /*comienzo boton de busqueda en los headers productos y envio newsletter de todos los html*/
 .boton_buscar, .boton_enviar {
   color: black;
-  font-size: 15px;
+  font-size: 12px;
   position: relative;
   z-index: 0;
-  width: 80px;
+  width: 100px;
   height: 40px;
   font-weight: 500;
   margin-top: 0.5rem;
@@ -30,8 +30,7 @@
   transition: all 0.2s ease; }
 
 .boton_enviar {
-  margin-bottom: 1rem;
-  text-align: left; }
+  margin-bottom: 1rem; }
 
 /*comienzo de barra de busqueda de header*/
 html,
@@ -279,7 +278,7 @@ body {
 
 /*comienzo contenedor farmatips.html*/
 .contenedor_farmatips {
-  height: 1000px;
+  height: 2500px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(7, 1fr);
@@ -470,7 +469,7 @@ body {
 
 /*comienzo contenedor grid conocenos.html*/
 .contenedor_conocenos {
-  height: 1000px;
+  height: 2300px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(7, 1fr);
@@ -731,10 +730,11 @@ body {
   .info-empresa h4 {
     display: none; }
   .contacto {
-    margin-bottom: 5rem;
     text-align: center; }
     .contacto h3 {
-      display: unset; } }
+      display: unset; }
+  .formulario {
+    margin-top: 3rem; } }
 
 /*acá comienza marquesina de los html*/
 .container_marquesina {

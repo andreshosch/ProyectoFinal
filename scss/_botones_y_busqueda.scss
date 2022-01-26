@@ -2,10 +2,10 @@
         
         .boton_buscar {
             color: black;
-            font-size: 15px;
+            font-size: 12px;
             position: relative;
             z-index: 0;
-            width: 80px;
+            width: 100px;
             height: 40px;
             font-weight: 500;
             margin-top: 0.5rem;
@@ -27,6 +27,5 @@
         .boton_enviar {
             @extend .boton_buscar;
             margin-bottom: 1rem;
-            text-align: left;
         }
         /*comienzo de barra de busqueda de header*/

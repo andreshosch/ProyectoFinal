@@ -137,10 +137,12 @@ body {
         }
     }
     .contacto {
-        margin-bottom: 5rem;
         text-align: center;
         & h3 {
             display: unset;
         }
+    }
+    .formulario {
+        margin-top: 3rem;
     }
 }
