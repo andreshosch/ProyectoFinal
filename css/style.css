@@ -1,6 +1,12 @@
 @charset "UTF-8";
-/*comienzo boton de busqueda en los headers productos y envio newsletter de todos los html*/
+/* comienzo reseteo de margenes*/
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*comienzo boton de busqueda en los headers productos y envio newsletter de todos los html*/
 .boton_buscar, .boton_enviar {
   color: black;
   font-size: 15px;
@@ -28,7 +34,8 @@
   text-align: left; }
 
 /*comienzo de barra de busqueda de header*/
-.body {
+html,
+body {
   max-width: 100%;
   overflow-x: hidden; }
 
@@ -118,12 +125,6 @@
   height: auto;
   width: 100%;
   padding-top: 1rem; }
-
-/* comienzo reseteo de margenes*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
 
 /*comienzo productos para la venta */
 .productos {
