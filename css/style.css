@@ -29,10 +29,8 @@
 
 /*comienzo de barra de busqueda de header*/
 .body {
-  margin-top: 0;
-  margin-left: 0;
-  margin-bottom: 0;
-  margin-right: 0; }
+  max-width: 100%;
+  overflow-x: hidden; }
 
 /* comienzo fondo de body para farmatips.html y conocenos.html */
 .fondo_body {
