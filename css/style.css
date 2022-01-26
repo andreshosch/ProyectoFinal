@@ -24,12 +24,15 @@
   transition: all 0.2s ease; }
 
 .boton_enviar {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  text-align: left; }
 
 /*comienzo de barra de busqueda de header*/
-body {
-  max-width: 100%;
-  overflow-x: hidden; }
+.body {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0; }
 
 /* comienzo fondo de body para farmatips.html y conocenos.html */
 .fondo_body {
