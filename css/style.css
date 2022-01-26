@@ -34,7 +34,7 @@
 
 /*comienzo de barra de busqueda de header*/
 html {
-  max-width: 100;
+  max-width: 100%;
   overflow-x: hidden; }
 
 /* comienzo fondo de body para farmatips.html y conocenos.html */
