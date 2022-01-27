@@ -122,11 +122,12 @@
                           grid-template-areas: "header_farma""barra_farma" "tips1" "tips2""tips3" "tips4""tips5" "tips6""tips7" "tips8""footer_farma";
                       }
                   }
-                  /*  @media screen and (max-width: 767px) {
+                  
+                  @media screen and (max-width: 767px) {
                       .contenedor_farmatips {
                           height: 4900px;
                       }
-                  }*/
+                  }
                   
                   @media screen and (max-width: 450px) {
                       .contenedor_farmatips {
