@@ -34,7 +34,15 @@
 
 /*comienzo de barra de busqueda de header*/
 /* comienzo fondo de body para farmatips.html y conocenos.html */
+style > body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  margin: 0; }
+
 html {
+  width: 100%;
+  height: 100%;
   overflow-x: hidden; }
 
 .fondo_body {
