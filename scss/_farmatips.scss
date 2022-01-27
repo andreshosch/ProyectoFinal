@@ -1,7 +1,7 @@
                   /*comienzo contenedor farmatips.html*/
                   
                   .contenedor_farmatips {
-                      height: 2600px;
+                      height: 1000px;
                       display: grid;
                       grid-template-columns: repeat(2, 1fr);
                       grid-template-rows: repeat(7, 1fr);
@@ -120,6 +120,9 @@
                           grid-template-columns: repeat(1, 1fr);
                           grid-template-rows: repeat(11, 1fr);
                           grid-template-areas: "header_farma""barra_farma" "tips1" "tips2""tips3" "tips4""tips5" "tips6""tips7" "tips8""footer_farma";
+                      }
+                      .tips1 {
+                          margin-bottom: 500px;
                       }
                   }
                   
