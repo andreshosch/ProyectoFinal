@@ -34,15 +34,8 @@
 
 /*comienzo de barra de busqueda de header*/
 /* comienzo fondo de body para farmatips.html y conocenos.html */
-body {
-  width: 100%;
-  height: 100%;
-  overflow-x: hidden;
-  margin: 0; }
-
-html {
-  width: 100%;
-  height: 100%;
+body html {
+  max-width: 100%;
   overflow-x: hidden; }
 
 .fondo_body {
@@ -487,7 +480,7 @@ html {
 
 /*comienzo contenedor grid conocenos.html*/
 .contenedor_conocenos {
-  height: 2400px;
+  height: 2500px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(7, 1fr);
